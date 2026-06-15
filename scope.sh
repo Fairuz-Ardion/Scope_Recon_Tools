@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ============================================================================
-#  RECON v2.0 — Full Reconnaissance & Vulnerability Assessment
+#  Scope — Full Reconnaissance & Vulnerability Assessment
 #  Dev    : KaguraV01d
 #  Github : https://github.com/Fairuz-Ardion
 #  Note   : Only use on targets you have explicit WRITTEN permission to test.
