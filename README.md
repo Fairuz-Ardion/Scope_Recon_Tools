@@ -67,8 +67,10 @@ The script auto-installs Go tools but requires these dependencies:
 
 ### Installation (Ubuntu/Debian)
 ```bash
-# Install core dependencies
-sudo apt update && sudo apt install -y golang-go jq curl
+# Clone and run
+git clone https://github.com/Fairuz-Ardion/Scope_Recon_Tools
+cd recon
+chmod +x recon.sh
 
-# Install optional tools
-pip install sqlmap  # or apt install sqlmap
+# Basic usage
+sudo ./scope.sh example.com
