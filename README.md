@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00FF00&center=true&vCenter=true&width=435&lines=RECON+v2.0;Full+Reconnaissance+%26+Vulnerability+Assessment;Ethical+Security+Tool" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00FF00&center=true&vCenter=true&width=435&lines=RECON+v2.0;Full+Reconnaissance+%26+Vulnerability;Ethical+Security+Tool" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -9,13 +9,13 @@
   <img src="https://img.shields.io/badge/tools-20%2B-orange" alt="Tools">
 </p>
 
-## 📋 Overview
+## Overview
 
-**RECON v2.0** is a comprehensive, modular reconnaissance and vulnerability assessment framework designed for security professionals. It orchestrates 20+ security tools in a structured workflow, from subdomain discovery to detailed vulnerability reporting.
+**Scope** is a comprehensive, modular reconnaissance and vulnerability assessment framework designed for security professionals. It orchestrates 20+ security tools in a structured workflow, from subdomain discovery to detailed vulnerability reporting.
 
-> ⚠️ **IMPORTANT**: This tool is for educational purposes and authorized testing only. Only use on targets you have explicit written permission to test.
+> **IMPORTANT**: This tool is for authorized testing only. Only use on targets you have explicit written permission to test.
 
-## ✨ Features
+## Features
 
 - **Modular Architecture** — Run individual modules or full pipeline
 - **Parallel Execution** — Job queue system with configurable concurrency  
@@ -36,7 +36,7 @@
 - **Rich Reporting** — Summary statistics + detailed vulnerability findings
 - **TDD-Ready** — Unit test suite (`TEST_MODE=1`)
 
-## 🔧 Required Tools
+## Required Tools
 
 The script auto-installs Go tools but requires these dependencies:
 
