@@ -68,7 +68,7 @@ The script auto-installs Go tools but requires these dependencies:
 ### Installation (Linux)
 ```bash
 # Clone and run
-git clone https://github.com/Fairuz-Ardion/Scope_Recon_Tools
+git clone https://github.com/FairuzRaihanArdion/Scope_Recon_Tools
 cd Scope_Recon_Tools
 chmod +x scope.sh
 
@@ -81,4 +81,4 @@ sudo ./scope.sh
 
 ### Author
 KaguraV01d
-GitHub: @Fairuz-Ardion
+GitHub: @FairuzRaihanArdion
