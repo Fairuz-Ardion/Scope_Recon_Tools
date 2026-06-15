@@ -74,3 +74,36 @@ chmod +x scope.sh
 
 # Basic usage
 sudo ./scope.sh
+```
+
+### Example Report Output
+==================================================================
+            SCOPE REPORT :: example.com
+==================================================================
+Date       : Wed Jan 15 14:30:22 UTC 2026
+Duration   : 12m 34s
+Output Dir : Scope_example.com_20260115_143022
+Errors     : 0
+
+── SUBDOMAIN STATS ──────────────────────────────────────────────
+  Raw collected         : 127
+  Permutations          : 1543
+  Alive permuted        : 89
+  Master list           : 216
+  DNS-confirmed live    : 142
+
+── VULNERABILITY SUMMARY ────────────────────────────────────────
+  XSS                    : 12
+  SQL Injection          : 3
+  LFI/Path Traversal     : 2
+  SSRF                   : 1
+  CVE Critical/High      : 4
+  Misconfiguration       : 8
+  Subdomain Takeover     : 1
+
+  TOTAL FINDINGS         : 31
+==================================================================
+
+### Author
+KaguraV01d
+GitHub: @Fairuz-Ardion
