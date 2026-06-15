@@ -65,7 +65,7 @@ The script auto-installs Go tools but requires these dependencies:
 - **sqlmap** — SQL injection (optional but recommended)
 - **ffuf** — Web fuzzing (optional)
 
-### Installation (Ubuntu/Debian)
+### Installation (Linux)
 ```bash
 # Clone and run
 git clone https://github.com/Fairuz-Ardion/Scope_Recon_Tools
