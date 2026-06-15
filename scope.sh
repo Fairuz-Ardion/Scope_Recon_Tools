@@ -2,7 +2,7 @@
 # ============================================================================
 #  Scope — Full Reconnaissance & Vulnerability Assessment
 #  Dev    : KaguraV01d
-#  Github : https://github.com/Fairuz-Ardion
+#  Github : https://github.com/FairuzRaihanArdion
 #  Note   : Only use on targets you have explicit WRITTEN permission to test.
 # ============================================================================
 # set -e disabled: grep returning no match (exit 1) would kill script
@@ -106,7 +106,7 @@ banner() {
 `----'  `---'  `----' `-'    `----'
 ART
   echo -e "${NC}"
-  echo -e "  ${CYAN}${BOLD}Dev: KaguraV01d  |  Github: https://github.com/Fairuz-Ardion${NC}"
+  echo -e "  ${CYAN}${BOLD}Dev: KaguraV01d  |  Github: https://github.com/FairuzRaihanArdion${NC}"
   echo -e "  ${YELLOW}${BOLD}Use this tool without any ethical considerations may be illegal${NC}"
   blank; blank
 }
