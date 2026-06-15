@@ -5,13 +5,6 @@
 #  Github : https://github.com/Fairuz-Ardion
 #  Note   : Only use on targets you have explicit WRITTEN permission to test.
 # ============================================================================
-# Architecture:
-#   - Each module is isolated and testable (TDD-friendly)
-#   - Vuln scanning uses dedicated tools per category.
-#   - Parallel execution with controlled job queues
-#   - Strict timeouts to prevent hanging
-# ============================================================================
-
 # set -e disabled: grep returning no match (exit 1) would kill script
 set -uo pipefail
 
