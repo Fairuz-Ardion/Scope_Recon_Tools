@@ -1138,7 +1138,7 @@ DONEART
   stat "  JS secrets:"         "$(count_lines "$OUTPUT_DIR/js/secrets.txt")"
   blank
 
-  echo -e "  ${BOLD}${WHITE}VULNERABILITY FINDINGS:${NC}"; div
+  echo -e "  ${BOLD}${WHITE}Potential Vuln / Path:${NC}"; div
   stat "  XSS (dalfox+nuclei):"        "$(count_lines "$V/xss/all.txt")"
   stat "  SQLi (sqlmap+nuclei):"       "$(count_lines "$V/sqli/all.txt")"
   stat "  LFI/Traversal (gf+nuclei):"  "$(count_lines "$V/lfi/all.txt")"
